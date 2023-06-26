@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/AxelosChatBotFinal/bin/Debug/netcoreapp3.1
+/AxelosChatBotFinal/obj
+/HelperConsole/obj
+/HelperConsole/bin/Debug/net6.0
+/PineconeEmbeddings/bin/Debug/net6.0
+/PineconeEmbeddings/obj
