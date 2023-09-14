@@ -5,9 +5,9 @@ namespace PineconeEmbeddings
 {
     public class PineconeService
     {
-        private readonly PineconeProvider pineconeClient = new PineconeProvider("f909df8a-53aa-49b7-a25b-f428a9528215", "us-east4-gcp");
-        private readonly string indexName = "chatbot1-index";
-        private readonly string projectName = "56a1186";
+        private readonly PineconeProvider pineconeClient = new PineconeProvider("api key value", "api key environment");
+        private readonly string indexName = "index name";
+        private readonly string projectName = "pinecone project name";
 
         public string FindSimilarText(List<double> questionEmbeddings)
         {

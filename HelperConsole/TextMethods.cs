@@ -68,7 +68,7 @@ namespace HelperMethods
             try
             {
                 HttpClient client = new HttpClient();
-                client.DefaultRequestHeaders.Add("authorization", "Bearer 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");
+                client.DefaultRequestHeaders.Add("authorization", "OPENAI API KEY");
                 client.Timeout = TimeSpan.FromMinutes(6);
 
                 var content = new StringContent("{\"model\": \"text-embedding-ada-002\", \"input\": \"" + text + "\"}",
